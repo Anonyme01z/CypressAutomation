@@ -19,21 +19,21 @@ it('serviceproviders', () => {
    
     //Change Email
 
-    // cy.get('.css-n00yer').contains('Change email').click()
-    // cy.get('.css-1n9tyna').should('have.text', 'Change Email')
-    // cy.get('#email').clear().clear()
-    // cy.get('.MuiButton-containedSecondary').contains('Cancel').click()
+    cy.get('.css-n00yer').contains('Change email').click()
+    cy.get('.css-1n9tyna').should('have.text', 'Change Email')
+    cy.get('#email').clear().clear()
+    cy.get('.MuiButton-containedSecondary').contains('Cancel').click()
 
-    // cy.get(':nth-child(3)').contains('Change email').
-    // click()
-    // cy.get('#email').clear()
-    // cy.get('#email').type('Olusogadaniel001@gmail.com')
+    cy.get(':nth-child(3)').contains('Change email').
+    click()
+    cy.get('#email').clear()
+    cy.get('#email').type('Olusogadaniel001@gmail.com')
 
-    // cy.get('.MuiInputAdornment-root > .MuiButtonBase-root').click()
-    // cy.get('#adminPassword').type('newpass123')
-    // cy.get('.css-j7qwjs').contains("Change email").click()
-    // cy.get('.MuiTypography-paragraph').should('have.text', 'Email has been changed successfully and a confirmation email has been sent to the user for verification.')
-    // cy.get('.MuiDialogContent-root > .MuiButton-root').click()
+    cy.get('.MuiInputAdornment-root > .MuiButtonBase-root').click()
+    cy.get('#adminPassword').type('newpass123')
+    cy.get('.css-j7qwjs').contains("Change email").click()
+    cy.get('.MuiTypography-paragraph').should('have.text', 'Email has been changed successfully and a confirmation email has been sent to the user for verification.')
+    cy.get('.MuiDialogContent-root > .MuiButton-root').click()
 
     // //Change Address
     
